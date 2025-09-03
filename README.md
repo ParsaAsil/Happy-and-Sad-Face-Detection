@@ -8,18 +8,9 @@ This project implements a facial emotion detection system to classify images as 
 
 The project is organized into the following key components:
 
-1. Dataset Preparation:
-
-
-
-
-
-Creates a TVT directory with Train, Validation, and Test subfolders, each containing Happy and Sad subdirectories.
-
-
-
-Splits the dataset into 70% Train, 15% Validation, and 15% Test.
-
+### 1. Dataset Preparation:
+####  .Creates a TVT directory with Train, Validation, and Test subfolders, each containing Happy and Sad subdirectories.
+####  .Splits the dataset into 70% Train, 15% Validation, and 15% Test.
 
 
 Preprocessing:
