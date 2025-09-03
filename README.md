@@ -45,3 +45,5 @@ The dataset is split into **Train, Validation, and Test** sets, with images proc
 Install dependencies:
 ```bash
 pip install tensorflow opencv-python pillow numpy mtcnn
+
+## 📁 Directory Structure
