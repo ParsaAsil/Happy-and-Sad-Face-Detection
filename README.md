@@ -1,18 +1,14 @@
 # Emotion Detection Project
 
-Overview
+## Overview
 
 This project implements a facial emotion detection system to classify images as "Happy" or "Sad" using deep learning. It leverages the VGG16 convolutional neural network, fine-tuned for binary classification, and includes comprehensive data preprocessing and augmentation to ensure robust performance. The dataset is organized into Train, Validation, and Test splits, with images processed to focus on facial features.
 
-Project Structure
+## Project Structure
 
 The project is organized into the following key components:
 
-
-
-
-
-Dataset Preparation:
+1. Dataset Preparation:
 
 
 
