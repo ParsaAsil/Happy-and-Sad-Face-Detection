@@ -67,5 +67,61 @@ emotion-detection/
 │   ├── 333.jpg
 ├── vgg16_emotion_model.h5
 ├── README.md
-├── notebook.ipynb
+├── ProjectFile.ipynb
+├── models/
+│   ├── vgg16_notop.h5
 ```
+
+## 🚀 Usage
+
+### 1. Prepare Dataset
+- Place **Happy** and **Sad** images in `data/Happy` and `data/Sad`.
+- Run dataset preparation script to create the `TVT` directory and split data.
+
+### 2. Preprocess Data
+- Execute preprocessing steps:
+  - ICC profile handling  
+  - Renaming  
+  - Face cropping  
+  - Resizing & normalization  
+- Apply **data augmentation** to training data.
+
+### 3. Train Model
+- Run training script to fine-tune the **VGG16** model.
+- Model is saved as `vgg16_emotion_model.h5`.
+
+### 4. Test Model
+- Evaluate on **Test folder** for accuracy.
+- Test a single image (e.g., `333.jpg` in `TestImage/`).
+
+## 📊 Results
+- **Test Accuracy:** ~82.54% on Test dataset.  
+- **Performance:** Robust generalization due to face cropping and augmentation.  
+- **Output:** Predicts `"Happy"` or `"Sad"` for single-image inputs.  
+
+---
+
+## 🔮 Future Improvements
+- Fine-tune **VGG16 layers** for better accuracy.  
+- Experiment with **ResNet** or **EfficientNet** architectures.  
+- Expand dataset with more diverse images.  
+- Support additional emotions (e.g., Angry, Neutral).  
+
+---
+
+## 🤝 Contributing
+Contributions are welcome!  
+
+1. Fork the repository.  
+2. Create a feature branch:  
+   ```bash
+   git checkout -b feature/YourFeature
+   ```
+3. Commit changes:
+   ```bash
+   git commit -m 'Add YourFeature'
+   ```
+4. Push to the branch:
+   ```bash
+   git push origin feature/YourFeature
+   ```
