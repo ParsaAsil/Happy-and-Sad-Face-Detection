@@ -45,5 +45,27 @@ The dataset is split into **Train, Validation, and Test** sets, with images proc
 Install dependencies:
 ```bash
 pip install tensorflow opencv-python pillow numpy mtcnn
+```
 
 ## 📁 Directory Structure
+```bash
+emotion-detection/
+├── data/
+│   ├── Happy/
+│   ├── Sad/
+├── TVT/
+│   ├── Train/
+│   │   ├── Happy/
+│   │   ├── Sad/
+│   ├── Validation/
+│   │   ├── Happy/
+│   │   ├── Sad/
+│   ├── Test/
+│   │   ├── Happy/
+│   │   ├── Sad/
+├── TestImage/
+│   ├── 333.jpg
+├── vgg16_emotion_model.h5
+├── README.md
+├── notebook.ipynb
+```
